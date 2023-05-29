@@ -6,37 +6,39 @@ https://vitejs.dev/guide/
 
 Installation command be specific to npm only works for npm installation
 
- $ npm create vite@latest
+$ npm create vite@latest
  
- follow installation steps
+follow installation steps
  
- In the newly created project move to vite.config.ts file in the root folder
+In the newly created project move to vite.config.ts file in the root folder
  
- add the line below defineConfig function inside the / / change the vite-project to your repository name
+add the line below defineConfig function inside the / / change the vite-project to your repository name
  
- base: '/vite-project/',
+base: '/vite-project/',
  
- create a new repository in github for the project
+create a new repository in github for the project
  
- Go back to the vite website at deploy Static site
+Go back to the vite website at deploy Static site
  
- https://vitejs.dev/guide/static-deploy.html
+https://vitejs.dev/guide/static-deploy.html
  
- on the right menu select github pages https://vitejs.dev/guide/static-deploy.html#github-pages
+on the right menu select github pages https://vitejs.dev/guide/static-deploy.html#github-pages
  
- copy yml code at digit2
+copy yml code at digit2
  
- On github go to settings > pages
+On github go to settings > pages
  
- At source select github Actions then select link create your own
+At source select github Actions then select link create your own
  
- name file  deploy.yml clear the editor then paste  yml code inside
+name file  deploy.yml clear the editor then paste  yml code inside
  
- click on commit changes then create
+click on commit changes then create
  
- move to the tab Action in workflow
+move to the tab Action in workflow
  
- a secure link is generated to host your project
+a secure link is generated to host your project
+
+to start $ npm run dev
  
  
  
